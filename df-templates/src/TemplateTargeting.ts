@@ -160,7 +160,7 @@ export default class TemplateTargeting {
 		// Register for the regular template creation completion and cancellation
 		const handleTemplateCreation = function (this: TemplateLayer, wrapper: AnyFunction, ...args: any) {
 			// clear the highlight preview layer
-			canvas.grid.getHighlightLayer('Template.null')?.clear();
+			canvas.interface.grid.getHighlightLayer('Template.null')?.clear();
 			return wrapper(...args);
 		};
 		libWrapper.register(SETTINGS.MOD_NAME, 'TemplateLayer.prototype._onDragLeftDrop', handleTemplateCreation, 'WRAPPER');
