@@ -3,7 +3,7 @@
 	"version": "1.3.0",
 	"title": "DF Template Enhancements",
 	"description": "Enhanced templates for different types of grid targetting.",
-	"author": "flamewave000#0001",
+	"author": "Harkonan#0001",
 	"compatibility": {
 		"minimum": 10,
 		"verified": 10.288
@@ -26,23 +26,23 @@
 		{ "lang": "ja", "path": "lang/ja.json", "name": "日本語" },
 		{ "lang": "pt-BR", "path": "lang/pt-BR.json", "name": "Português (Brasil)" }
 	],
-	"url":		"https://github.com/flamewave000/dragonflagon-fvtt/tree/master/df-templates",
-	"license":	"https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/LICENSE",
+	"url":		"https://github.com/Harkonan/dragonflagon-fvtt/tree/master/df-templates",
+	"license":	"https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/LICENSE",
 	"manifest":	"https://dragonflagon.cafe/mods/man/df-templates",
 	"download":	"https://dragonflagon.cafe/mods/pak/df-templates",
-	"readme":	"https://github.com/flamewave000/dragonflagon-fvtt/tree/master/df-templates/README.md",
-	"changelog":"https://github.com/flamewave000/dragonflagon-fvtt/tree/master/df-templates/CHANGELOG.md",
+	"readme":	"https://github.com/Harkonan/dragonflagon-fvtt/tree/master/df-templates/README.md",
+	"changelog":"https://github.com/Harkonan/dragonflagon-fvtt/tree/master/df-templates/CHANGELOG.md",
 	"manifestPlusVersion": "1.0.0",
-	"bugs": "https://github.com/flamewave000/dragonflagon-fvtt/issues",
-	"authors": [ { "name": "flamewave000", "discord": "flamewave000#0001", "url": "https://github.com/flamewave000" } ],
+	"bugs": "https://github.com/Harkonan/dragonflagon-fvtt/issues",
+	"authors": [ { "name": "Harkonan", "discord": "Harkonan#0001", "url": "https://github.com/Harkonan" } ],
 	"media": [
-		{ "type": "icon", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/logo.png" },
-		{ "type": "cover", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-templates/templates-dnd5e.png" },
-		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-templates/auto-target.gif" },
-		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-templates/grid-intersect-snapping.gif" },
-		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-templates/square-rotate-core.gif" },
-		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-templates/square-rotate-corrected.gif" },
-		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-templates/square-rotate-corrected-5e.gif" },
-		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-templates/template-preview.gif" }
+		{ "type": "icon", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/logo.png" },
+		{ "type": "cover", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/df-templates/templates-dnd5e.png" },
+		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/df-templates/auto-target.gif" },
+		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/df-templates/grid-intersect-snapping.gif" },
+		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/df-templates/square-rotate-core.gif" },
+		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/df-templates/square-rotate-corrected.gif" },
+		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/df-templates/square-rotate-corrected-5e.gif" },
+		{ "type": "screenshot", "url": "https://raw.githubusercontent.com/Harkonan/dragonflagon-fvtt/master/.assets/df-templates/template-preview.gif" }
 	]
 }
