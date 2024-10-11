@@ -18,11 +18,11 @@ export default class SquareTemplate {
 	}
 
 	private static patch() {
-		libWrapper.register(SETTINGS.MOD_NAME, 'MeasuredTemplate.prototype._getRectShape', SquareTemplate.MeasuredTemplate_getRectShape, 'OVERRIDE');
+		libWrapper.register(SETTINGS.MOD_NAME, 'MeasuredTemplate.getRectShape', SquareTemplate.MeasuredTemplate_getRectShape, 'OVERRIDE');
 		libWrapper.register(SETTINGS.MOD_NAME, 'MeasuredTemplate.prototype._refreshRulerText', SquareTemplate.MeasuredTemplate_refreshRulerText, 'WRAPPER');
 	}
 	private static unpatch() {
-		libWrapper.unregister(SETTINGS.MOD_NAME, 'MeasuredTemplate.prototype._getRectShape', false);
+		libWrapper.unregister(SETTINGS.MOD_NAME, 'MeasuredTemplate.getRectShape', false);
 		libWrapper.unregister(SETTINGS.MOD_NAME, 'MeasuredTemplate.prototype._refreshRulerText', false);
 	}
 
